@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfil</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- css own -->
+    <link rel="stylesheet" href="styles.css" >
+    <!-- script jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- bootstrap script -->
+    <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- script own -->
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body class="perfil-page">
+    <div class="background-wrapper">
+        <video controls width="2000px" loop="loop" muted autoplay="true">
+            <source src="img/videos/Psychedelic - 2710.mp4" type="video/mp4">
+        </video>       
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="logo-small">
+                    <img src="img/vida_loca_logo_white.png" alt="Vida Loca logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Welcome to your new life, the Vida Loca.</h1>
+                <h2>Your former name does not matter. From now on you'll be known as...</h2>        
+                <h3>Party Rocker</h3>
+            </div>
+        </div>
+        <form class="col-lg-6 perfil-form">
+            <fieldset>
+                <legend>What's your age?</legend>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="ageRadios" id="ageRadios1" value="option1" checked>
+                    <label class="form-check-label" for="ageRadios1">
+                        18-35
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="ageRadios" id="ageRadios2" value="option2">
+                    <label class="form-check-label" for="ageRadios2">
+                        36-55
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="ageRadios" id="ageRadios3" value="option3">
+                    <label class="form-check-label" for="ageRadios3">
+                        56-99
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>What's your gender?</legend>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios1" value="option1" checked>
+                    <label class="form-check-label" for="genderRadios1">
+                        None of your business.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios2" value="option2">
+                    <label class="form-check-label" for="genderRadios2">
+                        Female
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios3" value="option3">
+                    <label class="form-check-label" for="genderRadios3">
+                        Male
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios4" value="option4">
+                    <label class="form-check-label" for="genderRadios4">
+                        Non-binary
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios5" value="option5">
+                    <label class="form-check-label" for="genderRadios5">
+                       other
+                    </label>
+                </div>
+            </fieldset>
+            <div class="form-group">
+                <label class="label-vida-loca" for="password1">What's your Vida Loca Password?</label>
+                <input type="password" class="form-control inpt-vida-loca" id="password1" placeholder="Password">
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <div class="btn-vida-loca">
+                        <!--<button type="submit">REGISTER!</button>-->
+                        <a href="user.html">START!</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

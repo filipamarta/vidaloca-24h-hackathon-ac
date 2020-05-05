@@ -1,0 +1,415 @@
+/* general*/
+body{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    letter-spacing: 0.6px;
+    color: white;
+}
+h2, h3, h4, p, legend, form {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.1rem;
+}
+h1, h2, h3, p {
+    text-align: center;
+}
+legend, .label-vida-loca, h4  {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.2rem;
+}
+h3 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px red;
+    letter-spacing: 1px;
+}
+form {
+    padding: 30px 0 60px 0;
+}
+fieldset {
+    padding-bottom: 40px;
+}
+img {
+    width: 100%;
+}
+.btn-vida-loca{
+    text-align: center;
+}
+
+.btn-vida-loca a,
+.btn-vida-loca button {
+    padding: 15px 50px;
+    border: 1px solid white;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    border-radius: 40px;
+    text-shadow: 2px 2px 4px red;
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    -webkit-transition: text-shadow 0.3s ease-in-out;
+    transition: text-shadow 0.3s ease-in-out;
+    -webkit-transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 0px red;
+    -moz-box-shadow: 0px 0px red;
+    box-shadow: 0px 0px red;
+    background-color: transparent;
+}
+
+.btn-vida-loca a:hover,
+.btn-vida-loca button:hover{
+    background-color: white;
+    color: red;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: 8px 14px red;
+    -moz-box-shadow: 8px 14px red;
+    box-shadow: 8px 14px red;
+}
+
+input.inpt-vida-loca:focus {
+    background   : rgba(0,0,0,.1);
+}
+
+.form-control:focus {
+    color: white;
+    background-color: #fff;
+    border-color: rgba(220, 53, 69, 0.39);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.39);
+}
+
+.inpt-vida-loca {
+    border: 1px solid white;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: transparent;
+    margin: 0 0 20px 0;
+}
+
+.img-background{
+    width: 100%;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.homepage .img-background,
+.experiences-page .img-background{
+    background-image: url("img/img5.jpg");
+}
+.perfil-page .img-background{
+    background-image: url("img/img2.jpg");
+}
+.user-page .img-background{
+    background-image: url("img/img4.jpg");
+}
+
+
+/* presentation */
+.presentation-page {
+    height: 100vh;
+}
+.presentation-page .logo-homepage {
+    position: relative;
+    width: 900px;
+    height: auto;
+    margin: 265px auto 80px auto;
+    text-align: center;
+}
+
+/* homepage */
+.background-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
+    overflow: hidden;
+}
+.homepage .background-wrapper {
+    height: 100vh;
+    overflow: hidden;
+}
+.background-wrapper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #000000, grey);
+    opacity: .7;
+}
+.logo-homepage {
+    position: relative;
+    width: 600px;
+    height: auto;
+    margin: 80px auto 80px auto;
+    text-align: center;
+}
+
+nav.btn-vida-loca {
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 80px auto 40px auto;
+}
+
+.label-vida-loca {
+    margin-top: 20px;
+}
+
+/* experience page */
+.logo-small {
+    width: 200px;
+    margin: 40px auto 35px auto;
+}
+
+.card-experience {
+    border: none;
+    box-shadow: 5px 5px red;
+    width: 100%;
+}
+
+.row-experiences {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.col-experience {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.col-experience h2 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px red;
+}
+
+.col-experience .form-check-input {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.col-experience .form-check-label {
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px red;
+    -moz-box-shadow: 0px 0px red;
+    box-shadow: 0px 0px red;
+    -webkit-transition:  border 0.1s ease-in-out; 
+    transition: border 0.1s ease-in-out;
+}
+
+.col-experience .form-check-label:hover {
+    border: 1px solid white;
+    -webkit-transition:  border 0.1s ease-in-out; 
+    transition: border 0.1s ease-in-out;
+}
+
+.col-experience .form-check-label:hover img::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.col-experience input[type="radio"]:checked+label {
+    -webkit-box-shadow: 12px 10px red;
+    -moz-box-shadow: 12px 10px red;
+    box-shadow: 12px 10px red;
+    border: 1px solid white;
+    -webkit-transition: box-shadow 0.3s ease-in-out; 
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.experiences-page .form-group {
+    margin-bottom: 0;
+}
+
+.experiences-page .btn-vida-loca {
+    margin-top: 40px;
+}
+
+
+/* Perfil */
+.perfil-form {
+    margin: 0 auto;
+}
+
+.perfil-form .btn-vida-loca {
+    margin-top: 40px;
+}
+
+
+/* User */
+.user-page .container {
+    padding-top: 40px;
+}
+
+.user-page video{
+    margin-bottom: 60px;
+    transform: translate3d(0px,-4px,0);
+    -webkit-transform: translate3d(0px,-4px,0);
+    -moz-transform: translate3d(0px,-4px,0);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 20px 30px rgba(251, 9, 9, 0.34);
+    -webkit-box-shadow: 0 20px 30px rgba(251, 9, 9, 0.34);
+    -moz-box-shadow: 0 20px 30px rgba(251, 9, 9, 0.34);
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.avatar::after{
+    content: "";
+    width: 150px;
+    height: 150px;
+    -webkit-box-shadow: 12px 10px red;
+    -moz-box-shadow: 12px 10px red;
+    box-shadow: 12px 10px red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.perfil-header {
+    margin-bottom: 40px;
+}
+
+.perfil-header h3 {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 4rem;
+}
+.perfil-header p {
+    text-align: left;
+}
+.perfil-header .progress {
+    height: 0.5rem;
+    background-color: white;
+    width: 60%;
+}
+.perfil-header .progress .progress-bar {
+    background-color: red;
+}
+
+.badges-challenge {
+    padding-bottom: 60px;
+}
+
+.badges-challenge h2 {
+    margin: 60px 0 30px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.badges-challenge .list-group-item.list-group-item-action{
+    background-color: rgba(123, 104, 238, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    opacity: 0.6;
+}
+.badges-challenge .list-group-item.list-group-item-action.active {
+    background-color: rgba(255, 0, 0, 0.34);
+    border: 0;
+    opacity: 1;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.3);
+}
+.badges-challenge .list-group-item.list-group-item-action h3 {
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.badges-challenge .list-group-item.list-group-item-action img{
+    width: 20%;
+}
+
+.badges-challenge .tab-content .tab-pane.fade.show.active {
+    background-color: rgba(255, 0, 0, 0.34);
+    padding: 15px;
+}
+
+.badges-challenge .tab-content .tab-pane.fade.show.active p {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.badges-challenge .tab-content .tab-pane.fade.show.active .btn-vida-loca {
+    text-align: right;
+    position: absolute;
+    top: 27px;
+    right: 30px;
+}
+
+.badges-challenge .tab-content .tab-pane.fade.show.active .btn-vida-loca a {
+    padding: 7px 30px;
+    font-size: 1rem;
+}
+
+.badges-challenge .buddies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badges-challenge .buddies div {
+    width: 50px;
+    height: 50px;
+    margin: 20px 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.badges-challenge .buddies div img {
+    height: 100%;
+    position: relative;
+    top: -1px;
+    left: -2px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .logo-homepage {
+        width: 100%;
+    }   
+    .row-experiences {
+        width: 100%;
+    }
+}
+
+
