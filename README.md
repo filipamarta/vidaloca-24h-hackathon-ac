@@ -4,6 +4,8 @@
 
 A **24-hour hackathon project** developed at *<Academia de Código_>* with a randomly selected group of five people (Vitor Ferreira, Filipa Marta, Pedro Correia, Rui Luís e Nuno Correia). Our challenge was to make something inspired by Ricky Martin's song "Livin' La Vida Loca". In the end, we achieved an honorable **second place**.
 
+**Check it here (live in the GitHub pages) --> https://filipamarta.github.io/vidaloca-24h-hackathon-ac/**
+
 
 ![Image](https://github.com/filipamarta/vidaloca-24h-hackathon-ac/blob/master/presentation/COVER-BEHANCE.png)
 
